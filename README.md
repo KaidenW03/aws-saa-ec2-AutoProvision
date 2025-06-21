@@ -43,7 +43,7 @@ Visit the EC2 public IP in your browser and check CloudWatch Logs.
 
 Shows the instance running with t2.micro and the correct IAM role.
 
-![EC2 Dashboard](screenshots/ec2-dashboard.png)
+![EC2 Dashboard](Screenshots/ec2-dashboard.png)
 
 ---
 
@@ -51,7 +51,7 @@ Shows the instance running with t2.micro and the correct IAM role.
 
 Shows the custom "Hello from \<hostname\>" message when accessing the public IP.
 
-![Apache Output](screenshots/apache-output.png)
+![Apache Output](Screenshots/apache-output.png)
 
 ---
 
@@ -59,4 +59,4 @@ Shows the custom "Hello from \<hostname\>" message when accessing the public IP.
 
 Displays Apache access logs collected via CloudWatch Agent.
 
-![CloudWatch Logs](screenshots/cloudwatch-logs.png)
+![CloudWatch Logs](Screenshots/cloudwatch-logs.png)
