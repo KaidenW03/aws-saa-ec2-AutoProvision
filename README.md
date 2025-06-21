@@ -24,3 +24,10 @@ Skills Demonstrated
 •	Secure, role-based permissions (IAM roles on EC2)
 •	Linux system administration (web server setup, package management)
 •	Cloud-native monitoring with CloudWatch
+
+How to Reproduce
+Create an IAM Role with `CloudWatchAgentServerPolicy`.
+Launch a t2.micro EC2 instance using Amazon Linux 2023.
+Paste `cloud-init.sh` into the User Data field.
+Attach the IAM role and allow port 80 in the Security Group.
+isit the EC2 public IP in your browser and check CloudWatch Logs.
