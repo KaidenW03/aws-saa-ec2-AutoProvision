@@ -41,7 +41,7 @@ Visit the EC2 public IP in your browser and check CloudWatch Logs.
 
 ### 1. EC2 Instance Dashboard
 
-Shows the instance running with `t2.micro` and the correct IAM role.
+Shows the instance running with t2.micro and the correct IAM role.
 
 ![EC2 Dashboard](screenshots/ec2-dashboard.png)
 
