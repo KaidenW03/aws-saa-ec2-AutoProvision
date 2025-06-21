@@ -60,3 +60,8 @@ Shows the custom "Hello from \<hostname\>" message when accessing the public IP.
 Displays Apache access logs collected via CloudWatch Agent.
 
 ![CloudWatch Logs](Screenshots/cloudwatch-logs.png)
+
+## Further Automation
+
+After successfully launching and configuring the EC2 instance manually, I extended the project by automating the entire provisioning process using the AWS CLI. This includes creating a key pair, security group, and launching the EC2 instance with the required IAM role and CloudInit script — all in a single command.
+Please see 'launch-ec2.sh' for the full automation script.
