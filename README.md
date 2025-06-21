@@ -26,8 +26,8 @@ Skills Demonstrated
 •	Cloud-native monitoring with CloudWatch
 
 How to Reproduce
-Create an IAM Role with `CloudWatchAgentServerPolicy`.
+Create an IAM Role with CloudWatchAgentServerPolicy.
 Launch a t2.micro EC2 instance using Amazon Linux 2023.
-Paste `cloud-init.sh` into the User Data field.
+Paste cloud-init.sh into the User Data field.
 Attach the IAM role and allow port 80 in the Security Group.
 isit the EC2 public IP in your browser and check CloudWatch Logs.
