@@ -36,12 +36,6 @@ Paste cloud-init.sh into the User Data field.
 Attach the IAM role and allow port 80 in the Security Group.
 Visit the EC2 public IP in your browser and check CloudWatch Logs.
 
-## Project Structure
-
-├── README.md
-├── cloud-init.sh
-├── screenshots/
-└── logs/
 
 ## Screenshots
 
@@ -63,6 +57,6 @@ Shows the custom "Hello from \<hostname\>" message when accessing the public IP.
 
 ### 3. CloudWatch Log Groups
 
-Displays both system logs and Apache access logs collected via CloudWatch Agent.
+Displays Apache access logs collected via CloudWatch Agent.
 
 ![CloudWatch Logs](screenshots/cloudwatch-logs.png)
